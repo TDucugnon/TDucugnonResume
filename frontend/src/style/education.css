@@ -1,0 +1,84 @@
+.educationContainer {
+    position: relative;
+    width: 80%;
+    height: 79%;
+    top: 15%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+}
+
+.educationTitle {
+    color: #6DD0DB;
+    font-family: 'Oswald-Bold', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    line-height: normal;
+    align-self: flex-start;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.educationContent {
+    font-family: 'Oswald-Medium', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    align-self: flex-start;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 3%;
+    display: flex;
+    gap: 6%;
+    width: 90%;
+    border: #6DD0DB 2px solid;
+    border-radius: 20px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.educationImg {
+    align-self: flex-end;
+}
+
+.educationIcon {
+    color: #6DD0DB;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.logoIPI {
+    max-width: 140px;
+    max-height: 140px;
+}
+
+.logoLaSalle {
+    max-width: 170px;
+    max-height: 170px;
+}
+
+.learnMoreIcon {
+    color: #3d3d3d;;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.educationFullDescription {
+    height: 20%;
+    width: 100%;
+    display: block;
+    padding-bottom: 10px;
+    margin: 20px;
+    font-family: 'Oswald-Light', 'sans-serif';
+    font-weight: 600;
+    color: #4B4B4B;
+}

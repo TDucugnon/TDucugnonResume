@@ -1,0 +1,96 @@
+.experienceContainer {
+    position: relative;
+    width: 80%;
+    height: auto;
+    top: 15%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    padding-bottom: 2%;
+}
+
+.workExperienceIcon {
+    color: #6DD0DB;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.experienceContainerTitle {
+    color: #6DD0DB;
+    font-family: 'Oswald-Bold', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    align-self: flex-start;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.experienceContent {
+    width: 90%;
+    font-family: 'Oswald-Medium', sans-serif;
+    font-size: 20px;
+    margin-top: 3%;
+    padding: 10px;
+}
+
+.experienceDetails {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.experienceDetails div {
+    align-self: center;
+    width: 25%;
+    text-align: center;
+}
+
+.logoCompany {
+    max-width: 120px;
+    max-height: 120px;
+}
+
+.experienceTitle {
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.experienceTime {
+    color: #6DD0DB;
+    font-weight: bold;
+}
+
+.currentWork {
+    /* border: #6DD0DB 2px solid;
+    border-radius: 15px;
+    padding: 5px; */
+}
+
+@media screen and (max-width: 600px) {
+    .experienceDetails {
+        display: block;
+    }
+    .experienceDetails div {
+        width: 100%;
+        font-size: 1rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .experienceDetails .experienceTime {
+        font-size: 1.2rem;
+    }
+    .experienceTitle {
+        font-size: 25px;
+    }
+}

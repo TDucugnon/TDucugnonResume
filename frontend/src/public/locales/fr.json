@@ -1,0 +1,90 @@
+{
+    "profile": {
+        "profileText": "Enthousiaste et motivé, je suis toujours à la recherche de nouveaux défis pour m'améliorer et gagner en expérience ! Après avoir terminé mon bachelor pour devenir développeur Full-Stack, j'ai pu acquérir une première expérience professionnelle, et je suis maintenant ouvert à tous nouveaux challenges !",
+        "title": "Thomas Ducugnon",
+        "profile": "Mon profile",
+        "subtitle": "Développeur Full-Stack",
+        "hobbies": "Centre d'interêt",
+        "paintball": "Paintball",
+        "mangas": "Mangas",
+        "videogame": "Jeux vidéo",
+        "softwareDeveloppement": "Développement logiciel"
+    },
+
+    "navbar": {
+        "downloadResume": "Télécharger mon CV"
+    },
+
+    "menu": {
+        "menuTitle": "Menu"
+    },
+
+    "education": {
+        "title": "Parcours",
+        "laSalle": {
+            "laSalleDate": "2017 - 2020",
+            "Bac": "Bac STI2D option système d'information et numérique",
+            "laSalleTitle": "Lycée Jean-Baptiste de LaSalle",
+            "laSalleFullDescription": "Dans ce lycée j'ai pu commencer à apprendre certains langages basique de programmation et l'informatique"
+        }, 
+        "IPI": {
+            "IPIDate": "2020 - 2023",
+            "Bachelor": "Bachelor International Full-Stack Developer",
+            "IPITitle": "IPI école d'informatique",
+            "IPIFullDescription": "Situé a Lyon dans le campus IGS, cette formation m'a permis d'apprendre les bases du développement dans certains langages et également certains concepts. J'y est notamment appris les bases du développement d'applications mobile ou web dans les langages tel que Java, PHP, Python."
+        }
+    },
+
+    "skills": {
+        "title": "Compétences",
+        "backend": "Back-end",
+        "frontend": "Front-end",
+        "project": "Projets",
+        "php": "PHP",
+        "laravel": "Laravel",
+        "symfony": "Symfony",
+        "java": "Java",
+        "python": "Python",
+        "react": "React",
+        "javascript": "Javascript / JQuery",
+        "htmlCss": "HTML / CSS",
+        "mySQL": "MySQL / PostgreSQL",
+        "teamWork": "Travail d'équipe",
+        "motivation": "Motivation",
+        "selfLearner": "Monter en compétences",
+        "softSkills": "Soft skills"
+    },
+
+    "experience": {
+        "title": "Expériences",
+        "month": "mois",
+        "year": "année",
+        "anesf": {
+            "experienceTitle": "Stage dans l'association ANESF",
+            "role": "Développeur Full-Stack",
+            "description": "Développement d'un site web pour l'association ANESF avec Laravel" 
+        },
+        "interactivInternship": {
+            "experienceTitle": "Stage de fin d'étude en tant que développer Full-Stack chez Interactiv' Technologie",
+            "role": "Développeur Full-Stack",
+            "description": "En tant que membre de l'équipe de développement, j'ai participé à l'intégration continue de 3 différents logiciels"
+        },
+        "interactiv": {
+            "experienceTitle": "Développeur Full-Stack chez Interactiv' Technologie",
+            "role": "Développeur Full-Stack",
+            "description": "En tant que membre de l'équipe de développement, je participe à l'intégration continue de 3 différents logiciels"
+        }
+    },
+
+    "contact": {
+        "title": "Contact",
+        "formTitle": "Envoyer un message",
+        "sendMessage": "Envoyer",
+        "emailAdress": "t.ducugnon@gmail.com",
+        "tel": "07 85 87 63 23",
+        "requiredField": "Ce champs est requis",
+        "location": "France, Lyon",
+        "messageSuccess": "Le message a bien été envoyé !",
+        "toMuchRequest": "Veuillez attendre 1 minute avant de renvoyer un message"
+    } 
+}

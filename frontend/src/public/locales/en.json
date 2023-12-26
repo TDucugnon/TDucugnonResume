@@ -1,0 +1,93 @@
+{
+    "profile": {
+        "profileText": "Enthusiastic and motivated, I'm looking for new challenges to improve and gain experience ! After completing my bachelor's degree to become a Full-Stack developer, I could gained a first experience as software developer and I'm now open to any new challenges !",
+        "title": "Thomas Ducugnon",
+        "profile": "My profile",
+        "subtitle": "Full-Stack Developer",
+        "hobbies": "Hobbies",
+        "paintball": "Paintball",
+        "mangas": "Mangas",
+        "videogame": "Video games",
+        "softwareDeveloppement": "Software development"
+    },
+
+    "navbar": {
+        "downloadResume": "Download my resume"
+    },
+
+    "menu": {
+        "menuTitle": "Menu"
+    },
+
+    "education": {
+        "title": "Education",
+        "laSalle": {
+            "laSalleDate": "2017 - 2020",
+            "Bac": "Bac STI2D speciality numerical system",
+            "laSalleTitle": "High school Jean-Baptiste de LaSalle",
+            "laSalleFullDescription": "In this highschool I started to pratice some basics languages and discover computer sciences"
+        },
+        "IPI": {
+            "IPIDate": "2020 - 2023",
+            "Bachelor": "Bachelor International Full-Stack Developer",
+            "IPITitle": "IPI école d'informatique",
+            "IPIFullDescription": "Located in Lyon in the IGS campus, this training allowed me to learn the basics of development in some languages and also some concepts. I learned the basics of web / mobile development in some languages such as Java, PHP, Python."
+        }
+    },
+
+    "skills": {
+        "title": "Skills",
+        "backend": "Back-end",
+        "frontend": "Front-end",
+        "project": "Projects",
+        "php": "PHP",
+        "laravel": "Laravel",
+        "symfony": "Symfony",
+        "java": "Java",
+        "python": "Python",
+        "react": "React",
+        "javascript": "Javascript / JQuery",
+        "htmlCss": "HTML / CSS",
+        "mySQL": "MySQL / PostgreSQL",
+        "teamWork": "Team work",
+        "motivation": "Motivation",
+        "selfLearner": "Self-learner",
+        "softSkills": "Soft skills",
+        "toMuchRequest": "Wait 1 minute before send a message again"
+    },
+
+    "experience": {
+        "title": "Work experience",
+        "month": "month",
+        "year": "year",
+        "anesf": {
+            "experienceTitle": "Internship at the association ANESF",
+            "role": "Full-Stack developer",
+            "description": "Development of a website for the association ANESF with Laravel",
+            "company": "ANESF"
+        },
+        "interactivInternship": {
+            "experienceTitle": "Full-Stack developer internship at Interactiv' Technologie",
+            "role": "Full-Stack developer",
+            "description": "As a part of the development team, I participated in the continuous integration for 3 web softwares.",
+            "company": "Interactiv' technologie"
+        },
+        "interactiv": {
+            "experienceTitle": "Full-Stack developer at Interactiv' Technologie",
+            "role": "Full-Stack developer",
+            "description": "As a part of the development team, I participated in the continuous integration for 3 web softwares.",
+            "company": "Interactiv' technologie"
+        }
+    },
+
+    "contact": {
+        "title": "Contact",
+        "formTitle": "Send a message",
+        "sendMessage": "Send",
+        "emailAdress": "t.ducugnon@gmail.com",
+        "tel": "07 85 87 63 23",
+        "requiredField": "This field is required",
+        "location": "France, Lyon",
+        "messageSuccess": "The message has been successfully delivered !"
+    } 
+}

@@ -1,0 +1,299 @@
+.skillsContainer {
+    position: relative;
+    width: 80%;
+    height: auto;
+    top: 15%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    padding-bottom: 2%;
+}
+
+.skillsTitle {
+    color: #6DD0DB;
+    font-family: 'Oswald-Bold', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    align-self: flex-start;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.skillsIcon {
+    color: #6DD0DB;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.backend {
+    font-family: 'Oswald-Medium', sans-serif;
+    font-weight: 400;
+    margin-top: 2%;
+    font-size: 35px;
+    padding: 10px;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.backendContentContainer {
+    font-family: 'Oswald-Bold', sans-serif;
+    font-size: 20px;
+    margin-top: 3%;
+    width: 90%;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.backendHead {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.frontEndHead {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.softSkillsHead {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.phpProgressBar {
+    width: 30%;
+}
+
+.logoSkills {
+    max-width: 110px;
+    max-height: 110px;
+}
+
+.githubIcon {
+    width: 35px;
+    height: 35px;
+}
+
+.projectGithub {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-top: 10px;
+}
+
+.projectGithub:hover{
+    opacity: 1 !important;
+    color: black;
+}
+
+.project a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+.project {
+    padding: 15px;
+    text-align: center;
+    color: white;
+    background-color: #6DD0DB;
+    border-radius: 15px;
+    width: 15%;
+}
+
+.openProject {
+    margin-right: 20px;
+}
+
+.project:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.seeSkills {
+    color: #6DD0DB;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    margin-top: 3%;
+    align-items: center;
+    gap: 3%;
+    animation: fade-in 1s ease-in-out;
+    opacity: 0;
+}
+
+.row div {
+    width: 20%;
+    text-align: center;
+    margin-left: 1%;
+}
+
+.skill-bar {
+    height: 20px;
+    width: 25%;
+    border-radius: 20px;
+    margin-top: 6px;
+    background-color: #3d3d3d;
+}
+
+.skill-per  {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 90%;
+    border-radius: 20px;
+    background-color: #6dd0db;
+    animation: progress 0.4s ease-in-out forwards;
+    opacity: 0;
+}
+
+.skill-php {
+    width: 90%;
+    animation-delay: 0.8s;
+}
+
+.skill-laravel {
+    width: 80%;
+    animation-delay: 0.8s;
+}
+
+.skill-symfony {
+    width: 90%;
+    animation-delay: 0.8s;
+}
+
+.skill-java {
+    width: 75%;
+    animation-delay: 0.8s;
+}
+
+.skill-react {
+    width: 75%;
+    animation-delay: 0.8s;
+}
+
+.skill-python {
+    width: 65%;
+    animation-delay: 0.8s;
+}
+
+.skill-javascript {
+    width: 85%;
+    animation-delay: 0.8s;
+}
+
+.skill-htmlCss {
+    width: 85%;
+    animation-delay: 0.8s;
+}
+
+.skill-mySQL {
+    width: 85%;
+    animation-delay: 0.8s;
+}
+
+@keyframes progress {
+    0% {
+        width: 0;
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.hidden {
+    opacity: 0;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-fill-mode: forwards; 
+}
+
+.opacity {
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    opacity: 1;
+}
+
+.row:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.row:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.row:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+.row:nth-child(4) {
+    animation-delay: 0.8s;
+}
+
+.row:nth-child(5) {
+    animation-delay: 1s;
+}
+
+.row:nth-child(6) {
+    animation-delay: 1.2s;
+}
+
+.softSkillsIcon {
+    color: #6DD0DB;
+    height: 50px;
+}
+
+.softSkillsIcon svg {
+    height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .row div {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .row {
+        border-bottom: 2px solid #6DD0DB;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    .row:last-child {
+        border-bottom: none;
+    }
+}

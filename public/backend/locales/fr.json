@@ -1,0 +1,15 @@
+{
+    "profile": {
+        "title": "Thomas Ducugnon",
+        "subtitle": "Développeur Full-Stack",
+        "profileText": "test fr"
+    },
+
+    "navbar": {
+        "downloadResume": "Télécharger mon CV"
+    },
+
+    "education": {
+        "title": "Parcour"
+    }
+}

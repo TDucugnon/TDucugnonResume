@@ -1,0 +1,61 @@
+.slidebar {
+    display: flex;
+    min-height: 100vh;
+    z-index: 99;
+    position: fixed;
+}
+  
+.sidebar {
+    width: 40px;
+    background-color: #3D3D3D;
+    overflow-x: hidden;
+    transition: 0.5s;
+    border-radius: 0px 10px 10px 0px;
+    position: relative;
+    top: 69px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fullMenu {
+    display: flex;
+    justify-content: end;
+}
+
+.sidebar:hover {
+    background-color: #2F2F2F;
+    cursor: pointer;
+}
+
+.sidebar:hover .rightArrow {
+    color: #73D2DC;
+    cursor: pointer;
+}
+
+.toggle-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 5px 10px;
+}
+ 
+.rightArrow {
+    color: #FFFFFF;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.rightArrow:hover {
+    color: #73D2DC;
+}
+
+@media screen and (max-width: 600px) {
+    .slidebar {
+        min-height: 100%;
+    }
+}

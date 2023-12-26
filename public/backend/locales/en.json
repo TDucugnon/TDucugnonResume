@@ -1,0 +1,15 @@
+{
+    "profile": {
+        "title": "Thomas Ducugnon",
+        "subtitle": "Full-Stack developer",
+        "profileText": "Hi ! My name i"
+    },
+
+    "navbar": {
+        "downloadResume": "Download my resume"
+    },
+
+    "education": {
+        "title": "Education"
+    }
+}

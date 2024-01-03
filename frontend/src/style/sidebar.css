@@ -1,0 +1,83 @@
+.slidebar {
+    display: flex;
+    min-height: 100vh;
+    z-index: 99;
+    position: fixed;
+}
+  
+.sidebar {
+    align-items: center;
+    background-color: #3d3d3d;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    height: 100%;
+    position: relative;
+    top: 69px;
+    transition: .5s;
+    width: 40px;
+    flex-direction: column;
+}
+
+.fullMenu {
+    display: flex;
+    justify-content: end;
+}
+
+.centeredContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.sideBarIconContainer {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightArrowContainer {
+    align-self: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar .rightArrow {
+    color: #FFFFFF;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.sidebar:hover {
+    background-color: #2F2F2F;
+    cursor: pointer;
+}
+
+.sidebar:hover .rightArrow {
+    color: #73D2DC;
+}
+
+.toggle-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 5px 10px;
+}
+
+.sideBarIcon {
+    width: 20px;
+    height: 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .slidebar {
+        min-height: 100%;
+    }
+}

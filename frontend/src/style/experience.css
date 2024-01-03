@@ -1,18 +1,3 @@
-.experienceContainer {
-    position: relative;
-    width: 80%;
-    height: auto;
-    top: 15%;
-    left: 10%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    background-color: #FFFFFF;
-    border-radius: 40px;
-    padding-bottom: 2%;
-}
-
 .workExperienceIcon {
     color: #6DD0DB;
     width: 50px;
@@ -69,12 +54,6 @@
 .experienceTime {
     color: #6DD0DB;
     font-weight: bold;
-}
-
-.currentWork {
-    /* border: #6DD0DB 2px solid;
-    border-radius: 15px;
-    padding: 5px; */
 }
 
 @media screen and (max-width: 600px) {

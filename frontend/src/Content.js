@@ -2,7 +2,7 @@ import Profile from './Profile';
 import Education from './Education';
 import Skills from './Skills';
 import './style/content.css';
-import React, { useState } from 'react';
+import React from 'react';
 import Experience from './Experience';
 import Contact from './Contact';
 

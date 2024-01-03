@@ -69,13 +69,13 @@ function Skills()
         {
             label: t('skills.java'),
             logo: logoJava,
-            githubLinks: ["https://github.com/TDucugnon/ipi-java-210-ex-2"],
+            githubLinks: ["https://github.com/TDucugnon/ipi-java-210-ex-2", "https://github.com/TDucugnon/eval-330-th-b2-2022-pyrolyse", "https://github.com/TDucugnon/ipi-java-350-ex"],
             skillClassName: "skill-java",
         },
         {
             label: t('skills.python'),
             logo: logoPython,
-            githubLinks: ["https://github.com/TDucugnon/ipi-java-210-ex-2"],
+            githubLinks: [""],
             skillClassName: "skill-python",
         },
         {
@@ -214,22 +214,25 @@ const SkillComponent = ({ label, logo, githubLinks, skillClassName, isAnimationE
                 <span className={`skill-per ${skillClassName}`}></span>
             </div>
             {githubLinks.length > 0 ? (
-                <div className={'project'} onClick={toggleProject} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                    <FontAwesomeIcon className="openProject" icon={isProjectOpen ? faChevronDown : faChevronRight} onClick={toggleProject}/>
-                    {t('skills.project')}
-                    {isProjectOpen && (
-                        <div className='projectGithub' style={{ opacity: isHovered ? 0.7 : 1 }}>
-                            {githubLinks.map((link, index) => (
-                                <div className='projectGithub' style={{ opacity: isHovered ? 0.7 : 1 }}>
-                                    <a key={index} href={link} target="_blank" rel="noopener noreferrer">
-                                        <FontAwesomeIcon className='githubIcon' icon={faGithub} />
-                                    </a>
-                                </div>
-                            ))}
-                        </div>
-                        
-                    )}
-                </div>
+                githubLinks[0] !== '' ? (
+                    <div className={'project'} onClick={toggleProject} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                        <FontAwesomeIcon className="openProject" icon={isProjectOpen ? faChevronDown : faChevronRight} onClick={toggleProject}/>
+                        {t('skills.project')}
+                        {isProjectOpen && (
+                            <div className='projectGithub' style={{ opacity: isHovered ? 0.7 : 1 }}>
+                                {githubLinks.map((link, index) => (
+                                    <div className='projectGithub' style={{ opacity: isHovered ? 0.7 : 1 }}>
+                                        <a key={index} href={link} target="_blank" rel="noopener noreferrer">
+                                            <FontAwesomeIcon className='githubIcon' icon={faGithub} />
+                                        </a>
+                                    </div>
+                                ))}
+                            </div>   
+                        )}
+                    </div>
+                ) : (
+                    <div></div>
+                )
             ) : (
                 <div className='project'>
                     <Link to="workExperienceContainer" spy={true} smooth={true} duration={400} offset={-140}>

@@ -1,5 +1,5 @@
 import './style/menu.css';
-import React, { useState, useRef, useEffect } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';

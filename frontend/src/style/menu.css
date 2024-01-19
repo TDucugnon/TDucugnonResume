@@ -70,3 +70,9 @@ ul {
 .activeMenuItem li {
     color: #6dd0db;
 }
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    color: #212020;
+}

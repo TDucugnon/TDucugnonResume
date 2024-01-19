@@ -16,7 +16,8 @@
     },
 
     "menu": {
-        "menuTitle": "Menu"
+        "menuTitle": "Menu",
+        "copyright": "© Ducugnon Thomas 2024."
     },
 
     "education": {

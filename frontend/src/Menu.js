@@ -58,6 +58,9 @@ function Menu() {
                     </li>
                 </Link>
             </ul>
+            <div className='copyright'>
+                {t('menu.copyright')}
+            </div>
         </div>
     );
 }

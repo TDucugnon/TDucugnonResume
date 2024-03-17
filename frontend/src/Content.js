@@ -11,9 +11,9 @@ function Content() {
     return(
         <div className='content'>
             <Profile></Profile>
-            <Education></Education>
-            <Skills></Skills>
             <Experience></Experience>
+            <Skills></Skills>
+            <Education></Education>
             <Contact></Contact>
             <div className='footerDiv'></div>
         </div>

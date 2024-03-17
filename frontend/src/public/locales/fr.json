@@ -32,7 +32,7 @@
             "IPIDate": "2020 - 2023",
             "Bachelor": "Bachelor International Full-Stack Developer",
             "IPITitle": "IPI école d'informatique",
-            "IPIFullDescription": "Situé a Lyon dans le campus IGS, cette formation m'a permis d'apprendre les bases du développement dans certains langages et également certains concepts. J'y est notamment appris les bases du développement d'applications mobile ou web dans les langages tel que Java, PHP, Python."
+            "IPIFullDescription": "Situé à Lyon dans le campus IGS, cette formation m'a permis d'apprendre les bases du développement dans certains langages et également certains concepts. J'y ai notamment appris les bases du développement d'applications mobile ou web dans les langages tel que Java, PHP, Python."
         }
     },
 
@@ -47,6 +47,7 @@
         "java": "Java",
         "python": "Python",
         "react": "React",
+        "nodeJS": "NodeJS (Express js)",
         "javascript": "Javascript / JQuery",
         "htmlCss": "HTML / CSS",
         "mySQL": "MySQL / PostgreSQL",
@@ -61,19 +62,32 @@
         "month": "mois",
         "year": "année",
         "anesf": {
-            "experienceTitle": "Stage dans l'association ANESF",
+            "experienceTitle": "Développeur Full Stack (stage)",
             "role": "Développeur Full-Stack",
-            "description": "Développement d'un site web pour l'association ANESF avec Laravel" 
+            "descriptionLaravel": "Développement d'un site web pour l'association ANESF avec Laravel", 
+            "company": "ANESF"
         },
         "interactivInternship": {
-            "experienceTitle": "Stage de fin d'étude en tant que développer Full-Stack chez Interactiv' Technologie",
+            "experienceTitle": "Développeur Full Stack (stage)",
             "role": "Développeur Full-Stack",
-            "description": "En tant que membre de l'équipe de développement, j'ai participé à l'intégration continue de 3 différents logiciels"
+            "descriptionDevFullStack": "Développement full-stack",
+            "descriptionPHP": "PHP 8 / Symfony 6 / JQuery / MySQL / PostgresSQL",
+            "descriptionCI": "CI / CD",
+            "descriptionPIM": "PIM / ERP",
+            "descriptionSupport": "Support client (niveau 2)",
+            "descriptionSpec": "Développement spécifique pour des clients",
+            "company": "Interactiv' Technologies"   
         },
         "interactiv": {
-            "experienceTitle": "Développeur Full-Stack chez Interactiv' Technologie",
+            "experienceTitle": "Développeur Full Stack",
             "role": "Développeur Full-Stack",
-            "description": "En tant que membre de l'équipe de développement, je participe à l'intégration continue de 3 différents logiciels"
+            "descriptionDevFullStack": "Développement full-stack",
+            "descriptionPHP": "PHP 8 / Symfony 6 / JQuery / MySQL / PostgresSQL",
+            "descriptionCI": "CI / CD",
+            "descriptionPIM": "PIM / ERP",
+            "descriptionSupport": "Support client (niveau 2)",
+            "descriptionSpec": "Développement spécifique pour des clients",
+            "company": "Interactiv' Technologies"
         }
     },
 
@@ -82,10 +96,11 @@
         "formTitle": "Envoyer un message",
         "sendMessage": "Envoyer",
         "emailAdress": "t.ducugnon@gmail.com",
-        "tel": "07 85 87 63 23",
+        "tel": "+33 07 85 87 63 23",
         "requiredField": "Ce champs est requis",
         "location": "France, Lyon",
         "messageSuccess": "Le message a bien été envoyé !",
-        "toMuchRequest": "Veuillez attendre 1 minute avant de renvoyer un message"
+        "toMuchRequest": "Veuillez attendre 1 minute avant de renvoyer un message",
+        "sendError": "Erreur durant l'envoi de la requête"
     } 
 }

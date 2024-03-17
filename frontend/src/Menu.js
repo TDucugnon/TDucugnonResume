@@ -29,11 +29,11 @@ function Menu() {
                         <FontAwesomeIcon className='menuIcon' icon={faUser} />
                     </li>
                 </Link>
-                <Link to="educationContainer" spy={true} smooth={true} duration={400} offset={-140} activeClass="activeMenuItem">
+                <Link to="workExperienceContainer" spy={true} smooth={true} duration={400} offset={-140} activeClass="activeMenuItem">
                     <li>
                         <FontAwesomeIcon className='menuRightArrow' icon={faChevronRight} />
-                        {t('education.title')}
-                        <FontAwesomeIcon className='menuIcon' icon={faUserGraduate} />
+                        {t('experience.title')}
+                        <FontAwesomeIcon className='menuIcon' icon={faBriefcase} />
                     </li>
                 </Link>
                 <Link to="skillContainer" spy={true} smooth={true} duration={400} offset={-140} activeClass="activeMenuItem">
@@ -43,11 +43,11 @@ function Menu() {
                         <FontAwesomeIcon className='menuIcon' icon={faCode} />
                     </li>
                 </Link>
-                <Link to="workExperienceContainer" spy={true} smooth={true} duration={400} offset={-140} activeClass="activeMenuItem">
+                <Link to="educationContainer" spy={true} smooth={true} duration={400} offset={-140} activeClass="activeMenuItem">
                     <li>
                         <FontAwesomeIcon className='menuRightArrow' icon={faChevronRight} />
-                        {t('experience.title')}
-                        <FontAwesomeIcon className='menuIcon' icon={faBriefcase} />
+                        {t('education.title')}
+                        <FontAwesomeIcon className='menuIcon' icon={faUserGraduate} />
                     </li>
                 </Link>
                 <Link to="contactContainer" spy={true} smooth={true} duration={400} offset={-140} activeClass="activeMenuItem">

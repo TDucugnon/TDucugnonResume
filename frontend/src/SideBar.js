@@ -30,9 +30,9 @@ function SideBar() {
             <div className='centeredContainer'>
               <div className={!isSidebarOpen ? 'sideBarIconContainer' : 'hide'}>
                 <FontAwesomeIcon className='sideBarIcon' icon={faUser} />
-                <FontAwesomeIcon className='sideBarIcon' icon={faUserGraduate} />
-                <FontAwesomeIcon className='sideBarIcon' icon={faCode} />
                 <FontAwesomeIcon className='sideBarIcon' icon={faBriefcase} />
+                <FontAwesomeIcon className='sideBarIcon' icon={faCode} />
+                <FontAwesomeIcon className='sideBarIcon' icon={faUserGraduate} />
                 <FontAwesomeIcon className='sideBarIcon' icon={faMessage} />
               </div>
               <div className='rightArrowContainer'>
